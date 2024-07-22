@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 3366538215
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 975e49e666ab2deccc4ac9e9ed27cea5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: a75376af016eaac75c475d8b58c760ed
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 975e49e666ab2deccc4ac9e9ed27cea5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 205
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Animated Trees Package/Textures/acacia_bark_normal.png
+- Assets/Animated Trees Package/Models/Acacias/acacia_1.controller
+- Assets/Animated Trees Package/Materials/acacia_leaves.mat
+- Assets/Animated Trees Package/Models/Acacias/colliders.fbx
+- Assets/Animated Trees Package/Shaders/StandardDoubleSided.shader
+- Assets/Animated Trees Package/Materials/acacia_bark.mat
+- Assets/Animated Trees Package/Textures/acacia_bark_color.png
+- Assets/Animated Trees Package/Textures/acacia_leaves_normal.png
+- Assets/Animated Trees Package/Models/Acacias/acacia_1.fbx
+- Assets/Animated Trees Package/Textures/acacia_leaves_color.png
+Dependencies: []

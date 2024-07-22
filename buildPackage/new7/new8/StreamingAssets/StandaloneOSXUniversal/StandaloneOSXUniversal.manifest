@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2498245837
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: treemate
+      Dependencies: {}
+    Info_1:
+      Name: tree
+      Dependencies:
+        Dependency_0: treemate
+    Info_2:
+      Name: dahuamap
+      Dependencies:
+        Dependency_0: dahuamapmate
+    Info_3:
+      Name: dahuamapmate
+      Dependencies: {}

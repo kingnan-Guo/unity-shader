@@ -1,0 +1,12 @@
+ManifestFileVersion: 0
+UnityVersion: 2023.2.18f1c1
+CRC: 3602873270
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: dahuamap
+      Dependencies:
+        Dependency_0: dahuamate
+    Info_1:
+      Name: dahuamate
+      Dependencies: {}

@@ -1,0 +1,36 @@
+ManifestFileVersion: 0
+UnityVersion: 2023.2.18f1c1
+CRC: 1130438445
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: cb09082e988d0c41f3e80ac78b53787e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f82a7e971314b88eae1bc76880da1ed8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 26531047716c3424730a01cfb0ec7bf0
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/dahuyuahqu 1.fbx
+Dependencies:
+- E:/Unity/Dahuayuanqu/unity/New Unity Project/AssetBundles/StandaloneWindows64/dahuamate

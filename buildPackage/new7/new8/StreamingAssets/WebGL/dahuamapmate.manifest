@@ -1,0 +1,78 @@
+ManifestFileVersion: 0
+CRC: 2709986630
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d349a03e9ae68b0868f746628f35116f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b30fce1a9ad74efb72be6c308c56e365
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d349a03e9ae68b0868f746628f35116f
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/dahuyuahqu.fbm/2K-road_12-diffuse.jpg
+- Assets/Materials/c.mat
+- Assets/Materials/MetalGalvanized.004.mat
+- "Assets/Materials/\u8DD1\u9053.mat"
+- Assets/Materials/Grass004_1K-JPG_Color.mat
+- "Assets/Materials/\u73BB\u7483\u5E55\u5899.mat"
+- Assets/textures/1K-asphalt_11_Diffuse.jpg
+- "Assets/Materials/\u6750\u8D28.002.mat"
+- Assets/textures/1K-asphalt_11_Normal.jpg
+- Assets/dahuyuahqu.fbm/patterned_brick_floor_nor_gl_2k.exr
+- Assets/Materials/bl001.mat
+- "Assets/Materials/\u95E8\u6846.mat"
+- "Assets/Materials/\u70DF\u611F.mat"
+- "Assets/Materials/\u6750\u8D28.mat"
+- "Assets/Materials/\u73BB\u7483.mat"
+- Assets/textures/dimiancizhuan.png
+- Assets/Materials/men.mat
+- Assets/textures/Grass004_1K-JPG_Color.jpg
+- Assets/Materials/qiangmian.mat
+- Assets/Materials/2K-road_12-diffuse.mat
+- "Assets/Materials/\u7ACB\u67F1-\u5916.mat"
+- Assets/dahuyuahqu.fbm/2K-road_12-normal.jpg
+- Assets/waibudaoru/Textures_R/JN_di mian.jpg
+- Assets/Materials/1K-asphalt_11_Diffuse.mat
+- "Assets/textures/\u73BB\u7483\u5E55\u5899.png"
+- "Assets/Materials/\u6CB3\u6D41.mat"
+- Assets/textures/qiangmian.png
+- "Assets/Materials/\u4E3B\u4F53\u623F\u5C4B.mat"
+- "Assets/Materials/\u5730\u811A\u7EBF.mat"
+- Assets/Materials/qb001.mat
+- Assets/Materials/Window_material.mat
+- Assets/Materials/logo.mat
+- Assets/textures/gcz18901.JPG
+- Assets/Materials/RoadLine_White.001.mat
+- Assets/textures/efef.TIF
+- Assets/Materials/s-ph2g.mat
+- Assets/Materials/SVGMat.mat
+- Assets/Materials/gcz18901.mat
+- Assets/Materials/Lights.004.mat
+- "Assets/Materials/\u6750\u8D28.004.mat"
+- "Assets/Materials/\u4E50\u6A59logo.mat"
+- Assets/textures/c.jpg
+- "Assets/Materials/\u73BB\u7483.001.mat"
+- Assets/Materials/ck001.mat
+- Assets/Materials/patterned_brick_floor_diff_2k.mat
+- Assets/Materials/dimiancizhuan.mat
+- Assets/textures/Grass004_1K-JPG_NormalGL.jpg
+- "Assets/Materials/\u706F\u5149.mat"
+- "Assets/Materials/\u95E8\u628A\u624B.mat"
+- "Assets/Materials/\u6587\u5B57.mat"
+- Assets/Materials/efef.mat
+- "Assets/Materials/\u8DD1\u9053\u5206\u5272.mat"
+- Assets/Materials/RoadLine_Yellow.mat
+- "Assets/Materials/\u6750\u8D28.3.mat"
+- Assets/textures/men.jpg
+Dependencies: []

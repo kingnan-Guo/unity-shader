@@ -120,5 +120,25 @@ Shader "Unlit/LightModeTest"
             }
             ENDCG
         }
+
+        Pass {
+            Tags {
+                "LightMode" = "ForwardAdd"
+            }
+            Blend One One
+
+            CGPROGRAM
+            #pragma multi_compile_fwdadd
+
+            #pragma vertex vert
+            #pragma fragment frag
+
+            #include "UnityCG.cginc"
+
+
+
+            ENDCG
+
+        }
     }
 }

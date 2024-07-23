@@ -134,6 +134,11 @@ Shader "Unlit/LightModeTest"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            #include "AutoLight.cginc"
+
+            fixed4 _Diffuse;
+            fixed4 _Specular;
+            float _Gloss;
 
 
 

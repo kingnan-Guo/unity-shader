@@ -134,6 +134,7 @@ Shader "Unlit/LightModeTest"
             #pragma fragment frag
 
             #include "UnityCG.cginc"
+            #include "Lighting.cginc"
             #include "AutoLight.cginc"
 
             fixed4 _Diffuse;
@@ -145,7 +146,7 @@ Shader "Unlit/LightModeTest"
                 float3 worldNormal : TEXCOORD0;
                 float3 worldPos : TEXCOORD1;
                 // 光照衰减 的计算 使用 宏
-                LIGHTING_COORDS(2, 3);// (2, 3) 是 TEXCOORD2 和 TEXCOORD3
+                LIGHTING_COORDS(2, 3)// (2, 3) 是 TEXCOORD2 和 TEXCOORD3
                 // 顶点 光照 值
                 // float3 vertextLight : TEXCOORD4;// 顶点 光照 值
             };
@@ -163,28 +164,28 @@ Shader "Unlit/LightModeTest"
             fixed4 frag (v2f i) : SV_Target
             {
                 // 计算 wordNormal
-                // fixed3 worldNormal = normalize(i.worldNormal);
-                // fixed3 worldPos = i.worldPos;
-                // fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(worldPos));
+                fixed3 worldNormal = normalize(i.worldNormal);
+                fixed3 worldPos = i.worldPos;
+                fixed3 worldLightDir = normalize(UnityWorldSpaceLightDir(worldPos));
 
-                // fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLightDir));
+                fixed3 diffuse = _LightColor0.rgb * _Diffuse.rgb * saturate(dot(worldNormal, worldLightDir));
 
-                // fixed3 viewDir = normalize(UnityWorldSpaceViewDir(worldPos));
-                // fixed3 halfDir = normalize(worldLightDir + viewDir);
+                fixed3 viewDir = normalize(UnityWorldSpaceViewDir(worldPos));
+                fixed3 halfDir = normalize(worldLightDir + viewDir);
 
-                // fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(saturate(dot(worldNormal, halfDir)), _Gloss);
+                fixed3 specular = _LightColor0.rgb * _Specular.rgb * pow(saturate(dot(worldNormal, halfDir)), _Gloss);
 
 
                 
 
-                // // 计算衰减值
-                // fixed3 atten = 0;//LIGHT_ATTENUATION(i); // 点光 区域光 平行光 对应的 计算 不同
+                // 计算衰减值
+                fixed3 atten = LIGHT_ATTENUATION(i); // 点光 区域光 平行光 对应的 计算 不同
 
 
-                // return fixed4((diffuse + specular) * atten, 1.0);
+                return fixed4((diffuse + specular) * atten, 1.0);
 
 
-                return fixed4(0, 0, 0, 1);
+                // return fixed4(0, 0, 0, 1);
 
      
             }

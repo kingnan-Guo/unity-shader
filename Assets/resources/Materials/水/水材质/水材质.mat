@@ -77,7 +77,7 @@ Material:
     - _Cutoff: 0.5
     - _DepthRange: 1.12
     - _DetailNormalMapScale: 1
-    - _Distortion: 1100
+    - _Distortion: 100
     - _DstBlend: 0
     - _Gloss: 13.6
     - _GlossMapScale: 1

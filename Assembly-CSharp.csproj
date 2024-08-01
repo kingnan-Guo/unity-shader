@@ -64,15 +64,47 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.30f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets/scripts/camera/cameraOperation.cs" />
     <Compile Include="Assets/resources/Materials/水效果/021-水效果/CameraDepth.cs" />
+    <Compile Include="Assets/scripts/camera/cameraDepth.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/stenciDemoOne/stenciDemoOne.shader" />
+    <None Include="Assets/resources/Materials/水/水材质/waterShader.shader" />
     <None Include="Assets/resources/Materials/水效果/021-水效果/Water.shader" />
+    <None Include="Assets/resources/Materials/surfaceShader/Demo/NewSurfaceShader.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/stenciDemoTwo/stenciDemoTwo.shader" />
     <None Include="Assets/resources/Materials/动画/滚动动画/scrollAnimation.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/区域蒙版/Sphere/SphereShaderThree.shader" />
+    <None Include="Assets/resources/Materials/surfaceShader/添加頂點修改/addVertSurfaceShader.shader" />
+    <None Include="Assets/resources/Materials/镜面效果/mirror.shader" />
     <None Include="Assets/resources/Materials/动画/广告牌/billboard.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/stenciDemoTwo/Plane/PlaneShader.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/stenciDemoTwo/Sphere/SphereShader.shader" />
     <None Include="Assets/resources/Materials/水效果/022-湿湿地/022-Wet.shader" />
+    <None Include="Assets/resources/Materials/菲涅尔反射/fresnel.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/延时渲染/延时渲染-使用内置着色器/DeferredRender.shader" />
+    <None Include="Assets/resources/Materials/水/水材质/waterSurfaceShader_customWaterLight.shader" />
+    <None Include="Assets/resources/Materials/水/水材质/waterSurfaceShader.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/区域蒙版/Plane/PlaneShaderThree.shader" />
+    <None Include="Assets/resources/Materials/水/水材质/waterSurfaceShaderNormal.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/延时渲染/延时渲染-使用自定义着色器-HDR/afterDeferredRenderSencondPassHDR.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/延时渲染/延时渲染-使用自定义着色器-HDR/DeferredRenderHDR.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/stenciDemoTwo/cube/cubeShader.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/蒙版测试-Stencil/区域蒙版/cube/cubeShaderThree.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/延时渲染/延时渲染-使用自定义着色器/DeferredRender.shader" />
+    <None Include="Assets/resources/Materials/反射/反射Demo/Reffection.shader" />
     <None Include="Assets/resources/Materials/水效果/water/water.shader" />
     <None Include="Assets/resources/Materials/动画/顶点动画/vertexAinimation.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/延时渲染/延时渲染-使用自定义着色器/afterDeferredRenderSencondPass.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/渲染路径LightMode/LightModeTest.shader" />
+    <None Include="Assets/resources/Materials/折射/refraction.shader" />
+    <None Include="Assets/resources/Materials/水/水材质/waterSurfaceShader_customWaterLight_wave_GrabPass.shader" />
+    <None Include="Assets/resources/Materials/更复杂的光照/阴影/shadowTest.shader" />
+    <None Include="Assets/resources/Materials/抓屏/grabPass/grabPassShader.shader" />
+    <None Include="Assets/resources/Materials/序列帧动画/动画/AnimationShader.shader" />
+    <None Include="Assets/resources/Materials/抓屏/环境/NewUnlitShader.shader" />
+    <None Include="Assets/resources/Materials/水/水材质/waterSurfaceShader_customWaterLight_wave.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
